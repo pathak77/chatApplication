@@ -46,7 +46,7 @@ public class Menu_Right extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(93, 93, 93)
                 .addComponent(jLabel1)
-                .addContainerGap(424, Short.MAX_VALUE))
+                .addContainerGap(535, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
