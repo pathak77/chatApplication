@@ -1,6 +1,7 @@
 
-package Components;
+package swing;
 
+import swing.ModernScrollBarUI;
 import java.awt.Dimension;
 import javax.swing.JScrollBar;
 

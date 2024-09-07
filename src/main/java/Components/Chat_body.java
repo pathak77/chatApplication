@@ -1,6 +1,7 @@
 
 package Components;
 
+import swing.JscrollBar;
 import java.awt.Color;
 import net.miginfocom.swing.MigLayout;
 
@@ -11,6 +12,7 @@ public class Chat_body extends javax.swing.JPanel {
     public Chat_body() {
         initComponents();
         init();
+        addItemLeft("alfjsdfh kldsfakls jdfhaklsdjfbd");
     }
     
     private void init(){
@@ -18,6 +20,15 @@ public class Chat_body extends javax.swing.JPanel {
         sp.setVerticalScrollBar(new JscrollBar());
         sp.getVerticalScrollBar().setBackground(Color.WHITE);
     }
+    
+     public void addItemLeft(String text) {
+           Chat_Left item = new Chat_Left();
+        item.setText(text);
+        body.add(item, "wrap, w ::80%");
+        //  ::80% set max with 80%
+        body.repaint();
+        body.revalidate();
+     }
 
   
     @SuppressWarnings("unchecked")
