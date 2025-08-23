@@ -1,13 +1,13 @@
 
-!!!!! Getting Started
+##Getting Started
 
 This project has been developed using NetBeans. To ensure full compatibility and make the most of the features, please use the latest version of NetBeans.
 
-!!!!! Prerequisites
+##Prerequisites
 
-- **NetBeans IDE**: Make sure you have the latest version installed. You can download it from [NetBeans Official Site](https://netbeans.apache.org/download/index.html).
+**NetBeans IDE**: Make sure you have the latest version installed. You can download it from [NetBeans Official Site](https://netbeans.apache.org/download/index.html).
 
- Required Libraries
+##Required Libraries
 
 All required libraries for this project are included in the `libraries` folder within the repository. Please make sure to add these libraries to your NetBeans project:
 
@@ -17,7 +17,7 @@ All required libraries for this project are included in the `libraries` folder w
 4. Go to the "Libraries" category.
 5. Click "Add JAR/Folder" and select the JAR files from the `libraries` folder.
 
-!!!! How to Run
+##How to Run
 
 1. Clone this repository to your local machine:
    ```bash
